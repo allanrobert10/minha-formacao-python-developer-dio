@@ -1,10 +1,12 @@
 class Bicicleta:
     def __init__(self, cor, modelo, ano, valor):
+        # atributos da classe
         self.cor = cor
         self.modelo = modelo
         self.ano = ano
         self.valor = valor
 
+    # métodos são funções que estão dentro de uma classe
     def buzinar(self):
         print("Plim plim...")
 
